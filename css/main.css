@@ -43,7 +43,7 @@ img {
 body {
     margin: 0;
     padding: 0;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     color: #222222;
 }
 
@@ -72,6 +72,7 @@ body {
 .logo {
     z-index: 20;
 }
+
 .header {
     color: #fff;
     background-color: #000;
@@ -238,7 +239,7 @@ body {
 
 .benefit__container {
     display: grid;
-    grid-template-columns: min-content 1fr;
+    grid-template-columns: max-content 1fr;
     gap: 80px;
     padding: 80px 140px;
 }
@@ -332,13 +333,14 @@ body {
 }
 
 .feedback {
-    padding: 100px 0;
+    padding: 0 50px 100px 50px;
 }
 
 .feedback__header {
     font-weight: 600;
     font-size: 64px;
     line-height: 104px;
+    padding: 60px 0;
 }
 
 .feedback__list {
@@ -352,6 +354,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     line-height: 30px;
+    padding-bottom: 20px;
 }
 
 .feedback__item-user {
@@ -379,11 +382,12 @@ body {
 .footer {
     color: #fff;
     background-color: #000;
-    padding: 100px 0;
+    padding: 100px 50px;
 }
 
 .footer__container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 100px
 }
 
